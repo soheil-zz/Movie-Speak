@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152D20DD13CC222B005F4BFB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 152D20DC13CC222B005F4BFB /* Reachability.m */; };
+		15540E3714B6ADE70003E414 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15540E3614B6ADE70003E414 /* Twitter.framework */; };
+		157BE6C113E91EE7005B60B1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157BE6C013E91EE7005B60B1 /* MessageUI.framework */; };
+		157BE6C313E91EF8005B60B1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157BE6C213E91EF8005B60B1 /* CoreData.framework */; };
+		157D615B13EE25FB003BDFD1 /* cling_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 157D615913EE25FB003BDFD1 /* cling_1.wav */; };
+		157D615C13EE25FB003BDFD1 /* cling_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 157D615A13EE25FB003BDFD1 /* cling_2.wav */; };
+		15809FD314A184E3006ECEA6 /* InAppPurchaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15809FD214A184E3006ECEA6 /* InAppPurchaseManager.m */; };
+		15809FD614A18616006ECEA6 /* SKProduct+LocalizedPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 15809FD514A18616006ECEA6 /* SKProduct+LocalizedPrice.m */; };
+		1580C63614A0569B009C3BE6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580C63514A0569B009C3BE6 /* StoreKit.framework */; };
+		1581B71013F0F6D20074645C /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 1581B70F13F0F6D20074645C /* Appirater.m */; };
+		158D981513F113C900F67254 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158D981413F113C900F67254 /* CFNetwork.framework */; };
+		1598573E141C2EDE00A0141B /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1598573D141C2EDE00A0141B /* menu.png */; };
+		15A640B413EDF45D005D7A48 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A640B313EDF45D005D7A48 /* AudioToolbox.framework */; };
+		15C64DB2141725D100B39AAE /* mic.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C64DB1141725D100B39AAE /* mic.png */; };
+		15C64DB6141726FA00B39AAE /* idea.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C64DB5141726FA00B39AAE /* idea.png */; };
+		15C64DB81417280D00B39AAE /* t.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C64DB71417280D00B39AAE /* t.png */; };
+		15D74ED313DCEA5B00FF27C2 /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D74EB813DCEA5A00FF27C2 /* Facebook.m */; };
+		15D74ED413DCEA5B00FF27C2 /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 15D74EBB13DCEA5A00FF27C2 /* FBDialog.bundle */; };
+		15D74ED513DCEA5B00FF27C2 /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D74EBD13DCEA5A00FF27C2 /* FBDialog.m */; };
+		15D74ED613DCEA5B00FF27C2 /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D74EBF13DCEA5A00FF27C2 /* FBLoginDialog.m */; };
+		15D74ED713DCEA5B00FF27C2 /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D74EC113DCEA5A00FF27C2 /* FBRequest.m */; };
+		15D74ED813DCEA5B00FF27C2 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D74EC513DCEA5A00FF27C2 /* NSObject+SBJSON.m */; };
+		15D74ED913DCEA5B00FF27C2 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D74EC713DCEA5A00FF27C2 /* NSString+SBJSON.m */; };
+		15D74EDA13DCEA5B00FF27C2 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D74EC913DCEA5A00FF27C2 /* SBJSON.m */; };
+		15D74EDB13DCEA5B00FF27C2 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D74ECB13DCEA5A00FF27C2 /* SBJsonBase.m */; };
+		15D74EDC13DCEA5B00FF27C2 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D74ECD13DCEA5A00FF27C2 /* SBJsonParser.m */; };
+		15D74EDD13DCEA5B00FF27C2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D74ECF13DCEA5A00FF27C2 /* SBJsonWriter.m */; };
+		15D74EE313DCEAEA00FF27C2 /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D74EE213DCEAEA00FF27C2 /* FBLoginButton.m */; };
+		15E15FD913DDCFEE006ABFE6 /* TwitterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E15FD813DDCFEE006ABFE6 /* TwitterRequest.m */; };
+		15E771F713CB5BEE003B3D56 /* FlipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E771F613CB5BEE003B3D56 /* FlipView.xib */; };
+		15E7FE8C13CACDF0007E1655 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E7FE8B13CACDF0007E1655 /* UIKit.framework */; };
+		15E7FE8E13CACDF0007E1655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E7FE8D13CACDF0007E1655 /* Foundation.framework */; };
+		15E7FE9013CACDF0007E1655 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E7FE8F13CACDF0007E1655 /* CoreGraphics.framework */; };
+		15E7FE9613CACDF0007E1655 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15E7FE9413CACDF0007E1655 /* InfoPlist.strings */; };
+		15E7FE9913CACDF0007E1655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E7FE9813CACDF0007E1655 /* main.m */; };
+		15E7FE9C13CACDF0007E1655 /* iDrinkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E7FE9B13CACDF0007E1655 /* iDrinkAppDelegate.m */; };
+		15E7FE9F13CACDF0007E1655 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E7FE9D13CACDF0007E1655 /* MainWindow.xib */; };
+		15E7FEA213CACDF0007E1655 /* iDrinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E7FEA113CACDF0007E1655 /* iDrinkViewController.m */; };
+		15E7FEA513CACDF1007E1655 /* iDrinkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E7FEA313CACDF1007E1655 /* iDrinkViewController.xib */; };
+		15E7FEB613CACF0E007E1655 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E7FEB513CACF0E007E1655 /* LoadingView.m */; };
+		15E7FEBD13CAD04C007E1655 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E7FEBC13CAD04C007E1655 /* AVFoundation.framework */; };
+		15E7FEC213CAD146007E1655 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E7FEC113CAD146007E1655 /* SystemConfiguration.framework */; };
+		15E7FEC413CAD188007E1655 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E7FEC313CAD188007E1655 /* QuartzCore.framework */; };
+		15ED3B2C13DCC84800315486 /* fb_message_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 15ED3B2913DCC84800315486 /* fb_message_bg.png */; };
+		15ED3B2D13DCC84800315486 /* Twitter_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 15ED3B2A13DCC84800315486 /* Twitter_logo.png */; };
+		15ED3B2E13DCC84800315486 /* twitter-logo-twit.png in Resources */ = {isa = PBXBuildFile; fileRef = 15ED3B2B13DCC84800315486 /* twitter-logo-twit.png */; };
+		15ED3B3113DCC85700315486 /* TwitterAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ED3B3013DCC85700315486 /* TwitterAgent.m */; };
+		15ED3B3413DCC86A00315486 /* BusyAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ED3B3313DCC86A00315486 /* BusyAgent.m */; };
+		5B6C502D14D8FC680008D102 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6C502814D8FC680008D102 /* 57.png */; };
+		5B6C502E14D8FC680008D102 /* 72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6C502914D8FC680008D102 /* 72.png */; };
+		5B6C502F14D8FC680008D102 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6C502A14D8FC680008D102 /* 114.png */; };
+		5B6C503014D8FC680008D102 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6C502B14D8FC680008D102 /* Default.png */; };
+		5B6C503114D8FC680008D102 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6C502C14D8FC680008D102 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		152D20DB13CC222B005F4BFB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../Reachability.h; sourceTree = "<group>"; };
+		152D20DC13CC222B005F4BFB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../Reachability.m; sourceTree = "<group>"; };
+		15540E3614B6ADE70003E414 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		157BE6C013E91EE7005B60B1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		157BE6C213E91EF8005B60B1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		157D615913EE25FB003BDFD1 /* cling_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cling_1.wav; path = ../cling_1.wav; sourceTree = "<group>"; };
+		157D615A13EE25FB003BDFD1 /* cling_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cling_2.wav; path = ../cling_2.wav; sourceTree = "<group>"; };
+		15809FD114A184E3006ECEA6 /* InAppPurchaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPurchaseManager.h; sourceTree = "<group>"; };
+		15809FD214A184E3006ECEA6 /* InAppPurchaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPurchaseManager.m; sourceTree = "<group>"; };
+		15809FD414A18616006ECEA6 /* SKProduct+LocalizedPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKProduct+LocalizedPrice.h"; sourceTree = "<group>"; };
+		15809FD514A18616006ECEA6 /* SKProduct+LocalizedPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKProduct+LocalizedPrice.m"; sourceTree = "<group>"; };
+		1580C63514A0569B009C3BE6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1581B70E13F0F6D20074645C /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
+		1581B70F13F0F6D20074645C /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
+		158D981413F113C900F67254 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1598573D141C2EDE00A0141B /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		15A640B313EDF45D005D7A48 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		15C64DB1141725D100B39AAE /* mic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic.png; sourceTree = "<group>"; };
+		15C64DB5141726FA00B39AAE /* idea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = idea.png; sourceTree = "<group>"; };
+		15C64DB71417280D00B39AAE /* t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t.png; sourceTree = "<group>"; };
+		15D74EB713DCEA5A00FF27C2 /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		15D74EB813DCEA5A00FF27C2 /* Facebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
+		15D74EBA13DCEA5A00FF27C2 /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		15D74EBB13DCEA5A00FF27C2 /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		15D74EBC13DCEA5A00FF27C2 /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		15D74EBD13DCEA5A00FF27C2 /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialog.m; sourceTree = "<group>"; };
+		15D74EBE13DCEA5A00FF27C2 /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		15D74EBF13DCEA5A00FF27C2 /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
+		15D74EC013DCEA5A00FF27C2 /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		15D74EC113DCEA5A00FF27C2 /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
+		15D74EC313DCEA5A00FF27C2 /* SB_JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SB_JSON.h; sourceTree = "<group>"; };
+		15D74EC413DCEA5A00FF27C2 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		15D74EC513DCEA5A00FF27C2 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		15D74EC613DCEA5A00FF27C2 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		15D74EC713DCEA5A00FF27C2 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		15D74EC813DCEA5A00FF27C2 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		15D74EC913DCEA5A00FF27C2 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		15D74ECA13DCEA5A00FF27C2 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		15D74ECB13DCEA5A00FF27C2 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		15D74ECC13DCEA5A00FF27C2 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		15D74ECD13DCEA5A00FF27C2 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		15D74ECE13DCEA5A00FF27C2 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		15D74ECF13DCEA5A00FF27C2 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		15D74EE113DCEAEA00FF27C2 /* FBLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginButton.h; sourceTree = "<group>"; };
+		15D74EE213DCEAEA00FF27C2 /* FBLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginButton.m; sourceTree = "<group>"; };
+		15E15FD713DDCFEE006ABFE6 /* TwitterRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterRequest.h; sourceTree = "<group>"; };
+		15E15FD813DDCFEE006ABFE6 /* TwitterRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterRequest.m; sourceTree = "<group>"; };
+		15E771F613CB5BEE003B3D56 /* FlipView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipView.xib; sourceTree = "<group>"; };
+		15E7FE8713CACDF0007E1655 /* Stock Speak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stock Speak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E7FE8B13CACDF0007E1655 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15E7FE8D13CACDF0007E1655 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15E7FE8F13CACDF0007E1655 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15E7FE9313CACDF0007E1655 /* Stock Speak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stock Speak-Info.plist"; sourceTree = "<group>"; };
+		15E7FE9513CACDF0007E1655 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15E7FE9713CACDF0007E1655 /* Stock Speak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stock Speak-Prefix.pch"; sourceTree = "<group>"; };
+		15E7FE9813CACDF0007E1655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15E7FE9A13CACDF0007E1655 /* iDrinkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDrinkAppDelegate.h; sourceTree = "<group>"; };
+		15E7FE9B13CACDF0007E1655 /* iDrinkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDrinkAppDelegate.m; sourceTree = "<group>"; };
+		15E7FE9E13CACDF0007E1655 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		15E7FEA013CACDF0007E1655 /* iDrinkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDrinkViewController.h; sourceTree = "<group>"; };
+		15E7FEA113CACDF0007E1655 /* iDrinkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDrinkViewController.m; sourceTree = "<group>"; };
+		15E7FEA413CACDF1007E1655 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iDrinkViewController.xib; sourceTree = "<group>"; };
+		15E7FEB413CACF0E007E1655 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		15E7FEB513CACF0E007E1655 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		15E7FEBC13CAD04C007E1655 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		15E7FEC113CAD146007E1655 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		15E7FEC313CAD188007E1655 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		15ED3B2913DCC84800315486 /* fb_message_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fb_message_bg.png; path = TwitterAgent/fb_message_bg.png; sourceTree = "<group>"; };
+		15ED3B2A13DCC84800315486 /* Twitter_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Twitter_logo.png; path = TwitterAgent/Twitter_logo.png; sourceTree = "<group>"; };
+		15ED3B2B13DCC84800315486 /* twitter-logo-twit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter-logo-twit.png"; path = "TwitterAgent/twitter-logo-twit.png"; sourceTree = "<group>"; };
+		15ED3B2F13DCC85700315486 /* TwitterAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterAgent.h; path = TwitterAgent/TwitterAgent.h; sourceTree = "<group>"; };
+		15ED3B3013DCC85700315486 /* TwitterAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterAgent.m; path = TwitterAgent/TwitterAgent.m; sourceTree = "<group>"; };
+		15ED3B3213DCC86A00315486 /* BusyAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusyAgent.h; path = BusyAgent/BusyAgent.h; sourceTree = "<group>"; };
+		15ED3B3313DCC86A00315486 /* BusyAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusyAgent.m; path = BusyAgent/BusyAgent.m; sourceTree = "<group>"; };
+		5B6C502814D8FC680008D102 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		5B6C502914D8FC680008D102 /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72.png; sourceTree = "<group>"; };
+		5B6C502A14D8FC680008D102 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
+		5B6C502B14D8FC680008D102 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5B6C502C14D8FC680008D102 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15E7FE8413CACDF0007E1655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15540E3714B6ADE70003E414 /* Twitter.framework in Frameworks */,
+				1580C63614A0569B009C3BE6 /* StoreKit.framework in Frameworks */,
+				158D981513F113C900F67254 /* CFNetwork.framework in Frameworks */,
+				15A640B413EDF45D005D7A48 /* AudioToolbox.framework in Frameworks */,
+				157BE6C313E91EF8005B60B1 /* CoreData.framework in Frameworks */,
+				157BE6C113E91EE7005B60B1 /* MessageUI.framework in Frameworks */,
+				15E7FEC413CAD188007E1655 /* QuartzCore.framework in Frameworks */,
+				15E7FEC213CAD146007E1655 /* SystemConfiguration.framework in Frameworks */,
+				15E7FE8C13CACDF0007E1655 /* UIKit.framework in Frameworks */,
+				15E7FE8E13CACDF0007E1655 /* Foundation.framework in Frameworks */,
+				15E7FE9013CACDF0007E1655 /* CoreGraphics.framework in Frameworks */,
+				15E7FEBD13CAD04C007E1655 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15C64DB0141725B700B39AAE /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				15C64DB71417280D00B39AAE /* t.png */,
+				1598573D141C2EDE00A0141B /* menu.png */,
+				15C64DB5141726FA00B39AAE /* idea.png */,
+				15C64DB1141725D100B39AAE /* mic.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		15D74EB313DCEA5A00FF27C2 /* FBConnect */ = {
+			isa = PBXGroup;
+			children = (
+				15D74EB713DCEA5A00FF27C2 /* Facebook.h */,
+				15D74EB813DCEA5A00FF27C2 /* Facebook.m */,
+				15D74EBA13DCEA5A00FF27C2 /* FBConnect.h */,
+				15D74EBB13DCEA5A00FF27C2 /* FBDialog.bundle */,
+				15D74EBC13DCEA5A00FF27C2 /* FBDialog.h */,
+				15D74EBD13DCEA5A00FF27C2 /* FBDialog.m */,
+				15D74EBE13DCEA5A00FF27C2 /* FBLoginDialog.h */,
+				15D74EBF13DCEA5A00FF27C2 /* FBLoginDialog.m */,
+				15D74EC013DCEA5A00FF27C2 /* FBRequest.h */,
+				15D74EC113DCEA5A00FF27C2 /* FBRequest.m */,
+			);
+			name = FBConnect;
+			path = src;
+			sourceTree = "<group>";
+		};
+		15D74EC213DCEA5A00FF27C2 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				15D74EC313DCEA5A00FF27C2 /* SB_JSON.h */,
+				15D74EC413DCEA5A00FF27C2 /* NSObject+SBJSON.h */,
+				15D74EC513DCEA5A00FF27C2 /* NSObject+SBJSON.m */,
+				15D74EC613DCEA5A00FF27C2 /* NSString+SBJSON.h */,
+				15D74EC713DCEA5A00FF27C2 /* NSString+SBJSON.m */,
+				15D74EC813DCEA5A00FF27C2 /* SBJSON.h */,
+				15D74EC913DCEA5A00FF27C2 /* SBJSON.m */,
+				15D74ECA13DCEA5A00FF27C2 /* SBJsonBase.h */,
+				15D74ECB13DCEA5A00FF27C2 /* SBJsonBase.m */,
+				15D74ECC13DCEA5A00FF27C2 /* SBJsonParser.h */,
+				15D74ECD13DCEA5A00FF27C2 /* SBJsonParser.m */,
+				15D74ECE13DCEA5A00FF27C2 /* SBJsonWriter.h */,
+				15D74ECF13DCEA5A00FF27C2 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			path = src/JSON;
+			sourceTree = "<group>";
+		};
+		15E7FE7C13CACDEF007E1655 = {
+			isa = PBXGroup;
+			children = (
+				15E7FE9113CACDF0007E1655 /* Stock Speak */,
+				15E7FE8A13CACDF0007E1655 /* Frameworks */,
+				15E7FE8813CACDF0007E1655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15E7FE8813CACDF0007E1655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15E7FE8713CACDF0007E1655 /* Stock Speak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15E7FE8A13CACDF0007E1655 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15540E3614B6ADE70003E414 /* Twitter.framework */,
+				1580C63514A0569B009C3BE6 /* StoreKit.framework */,
+				158D981413F113C900F67254 /* CFNetwork.framework */,
+				15A640B313EDF45D005D7A48 /* AudioToolbox.framework */,
+				157BE6C213E91EF8005B60B1 /* CoreData.framework */,
+				157BE6C013E91EE7005B60B1 /* MessageUI.framework */,
+				15E7FEC313CAD188007E1655 /* QuartzCore.framework */,
+				15E7FEC113CAD146007E1655 /* SystemConfiguration.framework */,
+				15E7FEBC13CAD04C007E1655 /* AVFoundation.framework */,
+				15E7FE8B13CACDF0007E1655 /* UIKit.framework */,
+				15E7FE8D13CACDF0007E1655 /* Foundation.framework */,
+				15E7FE8F13CACDF0007E1655 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15E7FE9113CACDF0007E1655 /* Stock Speak */ = {
+			isa = PBXGroup;
+			children = (
+				15D74EC213DCEA5A00FF27C2 /* JSON */,
+				1581B70E13F0F6D20074645C /* Appirater.h */,
+				1581B70F13F0F6D20074645C /* Appirater.m */,
+				15E15FD713DDCFEE006ABFE6 /* TwitterRequest.h */,
+				15E15FD813DDCFEE006ABFE6 /* TwitterRequest.m */,
+				15D74EE113DCEAEA00FF27C2 /* FBLoginButton.h */,
+				15D74EE213DCEAEA00FF27C2 /* FBLoginButton.m */,
+				15D74EB313DCEA5A00FF27C2 /* FBConnect */,
+				15ED3B3213DCC86A00315486 /* BusyAgent.h */,
+				15ED3B3313DCC86A00315486 /* BusyAgent.m */,
+				15ED3B2F13DCC85700315486 /* TwitterAgent.h */,
+				15ED3B3013DCC85700315486 /* TwitterAgent.m */,
+				152D20DB13CC222B005F4BFB /* Reachability.h */,
+				152D20DC13CC222B005F4BFB /* Reachability.m */,
+				15E7FEB413CACF0E007E1655 /* LoadingView.h */,
+				15E7FEB513CACF0E007E1655 /* LoadingView.m */,
+				15E7FEAB13CACE1F007E1655 /* Assets */,
+				15E7FE9A13CACDF0007E1655 /* iDrinkAppDelegate.h */,
+				15E7FE9B13CACDF0007E1655 /* iDrinkAppDelegate.m */,
+				15E7FE9D13CACDF0007E1655 /* MainWindow.xib */,
+				15E7FEA013CACDF0007E1655 /* iDrinkViewController.h */,
+				15E7FEA113CACDF0007E1655 /* iDrinkViewController.m */,
+				15E7FEA313CACDF1007E1655 /* iDrinkViewController.xib */,
+				15E7FE9213CACDF0007E1655 /* Supporting Files */,
+				15E771F613CB5BEE003B3D56 /* FlipView.xib */,
+				15809FD114A184E3006ECEA6 /* InAppPurchaseManager.h */,
+				15809FD214A184E3006ECEA6 /* InAppPurchaseManager.m */,
+				15809FD414A18616006ECEA6 /* SKProduct+LocalizedPrice.h */,
+				15809FD514A18616006ECEA6 /* SKProduct+LocalizedPrice.m */,
+			);
+			name = "Stock Speak";
+			path = iDrink;
+			sourceTree = "<group>";
+		};
+		15E7FE9213CACDF0007E1655 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15E7FE9313CACDF0007E1655 /* Stock Speak-Info.plist */,
+				15E7FE9413CACDF0007E1655 /* InfoPlist.strings */,
+				15E7FE9713CACDF0007E1655 /* Stock Speak-Prefix.pch */,
+				15E7FE9813CACDF0007E1655 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15E7FEAB13CACE1F007E1655 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5B6C502814D8FC680008D102 /* 57.png */,
+				5B6C502914D8FC680008D102 /* 72.png */,
+				5B6C502A14D8FC680008D102 /* 114.png */,
+				5B6C502B14D8FC680008D102 /* Default.png */,
+				5B6C502C14D8FC680008D102 /* Default@2x.png */,
+				15C64DB0141725B700B39AAE /* icons */,
+				157D615913EE25FB003BDFD1 /* cling_1.wav */,
+				157D615A13EE25FB003BDFD1 /* cling_2.wav */,
+				15ED3B2B13DCC84800315486 /* twitter-logo-twit.png */,
+				15ED3B2913DCC84800315486 /* fb_message_bg.png */,
+				15ED3B2A13DCC84800315486 /* Twitter_logo.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15E7FE8613CACDF0007E1655 /* Stock Speak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E7FEA813CACDF1007E1655 /* Build configuration list for PBXNativeTarget "Stock Speak" */;
+			buildPhases = (
+				15E7FE8313CACDF0007E1655 /* Sources */,
+				15E7FE8413CACDF0007E1655 /* Frameworks */,
+				15E7FE8513CACDF0007E1655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stock Speak";
+			productName = iDrink;
+			productReference = 15E7FE8713CACDF0007E1655 /* Stock Speak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15E7FE7E13CACDEF007E1655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 15E7FE8113CACDEF007E1655 /* Build configuration list for PBXProject "Stock Speak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15E7FE7C13CACDEF007E1655;
+			productRefGroup = 15E7FE8813CACDF0007E1655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15E7FE8613CACDF0007E1655 /* Stock Speak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15E7FE8513CACDF0007E1655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E7FE9613CACDF0007E1655 /* InfoPlist.strings in Resources */,
+				15E7FE9F13CACDF0007E1655 /* MainWindow.xib in Resources */,
+				15E7FEA513CACDF1007E1655 /* iDrinkViewController.xib in Resources */,
+				15E771F713CB5BEE003B3D56 /* FlipView.xib in Resources */,
+				15ED3B2C13DCC84800315486 /* fb_message_bg.png in Resources */,
+				15ED3B2D13DCC84800315486 /* Twitter_logo.png in Resources */,
+				15ED3B2E13DCC84800315486 /* twitter-logo-twit.png in Resources */,
+				15D74ED413DCEA5B00FF27C2 /* FBDialog.bundle in Resources */,
+				157D615B13EE25FB003BDFD1 /* cling_1.wav in Resources */,
+				157D615C13EE25FB003BDFD1 /* cling_2.wav in Resources */,
+				15C64DB2141725D100B39AAE /* mic.png in Resources */,
+				15C64DB6141726FA00B39AAE /* idea.png in Resources */,
+				15C64DB81417280D00B39AAE /* t.png in Resources */,
+				1598573E141C2EDE00A0141B /* menu.png in Resources */,
+				5B6C502D14D8FC680008D102 /* 57.png in Resources */,
+				5B6C502E14D8FC680008D102 /* 72.png in Resources */,
+				5B6C502F14D8FC680008D102 /* 114.png in Resources */,
+				5B6C503014D8FC680008D102 /* Default.png in Resources */,
+				5B6C503114D8FC680008D102 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15E7FE8313CACDF0007E1655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E7FE9913CACDF0007E1655 /* main.m in Sources */,
+				15E7FE9C13CACDF0007E1655 /* iDrinkAppDelegate.m in Sources */,
+				15E7FEA213CACDF0007E1655 /* iDrinkViewController.m in Sources */,
+				15E7FEB613CACF0E007E1655 /* LoadingView.m in Sources */,
+				152D20DD13CC222B005F4BFB /* Reachability.m in Sources */,
+				15ED3B3113DCC85700315486 /* TwitterAgent.m in Sources */,
+				15ED3B3413DCC86A00315486 /* BusyAgent.m in Sources */,
+				15D74ED313DCEA5B00FF27C2 /* Facebook.m in Sources */,
+				15D74ED513DCEA5B00FF27C2 /* FBDialog.m in Sources */,
+				15D74ED613DCEA5B00FF27C2 /* FBLoginDialog.m in Sources */,
+				15D74ED713DCEA5B00FF27C2 /* FBRequest.m in Sources */,
+				15D74ED813DCEA5B00FF27C2 /* NSObject+SBJSON.m in Sources */,
+				15D74ED913DCEA5B00FF27C2 /* NSString+SBJSON.m in Sources */,
+				15D74EDA13DCEA5B00FF27C2 /* SBJSON.m in Sources */,
+				15D74EDB13DCEA5B00FF27C2 /* SBJsonBase.m in Sources */,
+				15D74EDC13DCEA5B00FF27C2 /* SBJsonParser.m in Sources */,
+				15D74EDD13DCEA5B00FF27C2 /* SBJsonWriter.m in Sources */,
+				15D74EE313DCEAEA00FF27C2 /* FBLoginButton.m in Sources */,
+				15E15FD913DDCFEE006ABFE6 /* TwitterRequest.m in Sources */,
+				1581B71013F0F6D20074645C /* Appirater.m in Sources */,
+				15809FD314A184E3006ECEA6 /* InAppPurchaseManager.m in Sources */,
+				15809FD614A18616006ECEA6 /* SKProduct+LocalizedPrice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15E7FE9413CACDF0007E1655 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15E7FE9513CACDF0007E1655 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		15E7FE9D13CACDF0007E1655 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15E7FE9E13CACDF0007E1655 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		15E7FEA313CACDF1007E1655 /* iDrinkViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15E7FEA413CACDF1007E1655 /* en */,
+			);
+			name = iDrinkViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1519C1A113E938FF00C94525 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Soheil Yasrebi";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Soheil Yasrebi";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "1957B817-89C3-4BF6-8BAF-07E74B6D47BE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1957B817-89C3-4BF6-8BAF-07E74B6D47BE";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		1519C1A213E938FF00C94525 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDrink/Stock Speak-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Users/sman/Documents/iDrink/uservoice-iphone-sdk/**";
+				INFOPLIST_FILE = "iDrink/Stock Speak-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Stock Speak";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		15E7FEA613CACDF1007E1655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15E7FEA713CACDF1007E1655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		15E7FEA913CACDF1007E1655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: Soheil Yasrebi (B3D82EPP37)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Soheil Yasrebi (B3D82EPP37)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDrink/Stock Speak-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Users/sman/Documents/iDrink/uservoice-iphone-sdk/**";
+				INFOPLIST_FILE = "iDrink/Stock Speak-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Stock Speak";
+				PROVISIONING_PROFILE = "E567920B-43BC-4DCD-9205-D6B200D8D75D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E567920B-43BC-4DCD-9205-D6B200D8D75D";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15E7FEAA13CACDF1007E1655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Soheil Yasrebi";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Soheil Yasrebi";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDrink/Stock Speak-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Users/sman/Documents/iDrink/uservoice-iphone-sdk/**";
+				INFOPLIST_FILE = "iDrink/Stock Speak-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Stock Speak";
+				PROVISIONING_PROFILE = "1957B817-89C3-4BF6-8BAF-07E74B6D47BE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1957B817-89C3-4BF6-8BAF-07E74B6D47BE";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15E7FE8113CACDEF007E1655 /* Build configuration list for PBXProject "Stock Speak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E7FEA613CACDF1007E1655 /* Debug */,
+				15E7FEA713CACDF1007E1655 /* Release */,
+				1519C1A113E938FF00C94525 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		15E7FEA813CACDF1007E1655 /* Build configuration list for PBXNativeTarget "Stock Speak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E7FEA913CACDF1007E1655 /* Debug */,
+				15E7FEAA13CACDF1007E1655 /* Release */,
+				1519C1A213E938FF00C94525 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15E7FE7E13CACDEF007E1655 /* Project object */;
+}
