@@ -532,8 +532,8 @@
 					armv6,
 					armv7,
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer: Soheil Yasrebi (B3D82EPP37)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Soheil Yasrebi (B3D82EPP37)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -542,8 +542,8 @@
 				INFOPLIST_FILE = "iDrink/Movie Speak-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "Movie Speak";
-				PROVISIONING_PROFILE = "E567920B-43BC-4DCD-9205-D6B200D8D75D";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E567920B-43BC-4DCD-9205-D6B200D8D75D";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
