@@ -724,8 +724,7 @@ static NSString* kAppId = @"116669421761762";
     inAppPurchaseManager = [InAppPurchaseManager alloc];
     [inAppPurchaseManager loadStore];
     
-    NSDictionary* env = [[NSProcessInfo processInfo] environment];
-    
+    NSDictionary* env = [[NSProcessInfo processInfo] environment];    
     if ([[env valueForKey:@"debug"] isEqual:@"TRUE"]) {
         NSLog(@"debugger yes");
         [[NSUserDefaults standardUserDefaults] setInteger:-10 forKey:@"timesUsed"];
